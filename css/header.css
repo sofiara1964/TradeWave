@@ -1,0 +1,55 @@
+.header {
+  display: flex ;
+}
+.header__common {
+  display: flex;
+  margin: 16px 0 16px 0;
+}
+.header__nav {
+  margin-right: 45px;
+}
+.nav__item {
+  display: flex;
+  justify-content: space-between; 
+  padding: 20px 0 19px 30px; 
+}
+.header__contacts {
+  display: flex;
+}
+.nav__item_link {
+  margin-right: 12px;
+}
+.nav__item_link:last-child {
+  margin-right: 0px;
+}
+.nav__item_link-insert {
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+	color: #272727;
+}
+.header__contacts-telephon {
+  padding: 19px 14px 19px 0px;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.button__country {
+  margin: 12px 0px 12px 0px;
+}
+.header__button {
+  padding: 16px 40px 16px 40px;
+  border-radius: 8px;
+  background: #3663EF;
+}
+.header__button-btn {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 20px;
+  color: #FFFFFF;
+}

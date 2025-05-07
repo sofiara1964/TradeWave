@@ -4,55 +4,79 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/header.css">
   <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/partner.css">
   <title>TradeWave</title>
 </head>
 <body>
-  <div class="header">
-    <div class="logo header__logo">
-      <img src="./images/Logo.png" alt="logo">
-    </div>
-    <div class="nav header__nav">
-      <div class="nav__item">
-        <div class="nav__item_link">
-          <a href="#!" class="nav__item_link-insert">О компании</a>
+  <div class="wrapper">
+    <div class="wrap">
+      <div class="header">
+        <div class="logo header__logo">
+          <img src="./images/Logo.png" alt="logo">
         </div>
-        <div class="nav__item_link">
-          <a href="#!" class="nav__item_link-insert">Решения для бизнеса</a>
-        </div>
-        <div class="nav__item_link">
-          <a href="#!" class="nav__item_link-insert">Преимущества</a>
-        </div>
-        <div class="nav__item_link">
-          <a href="#!" class="nav__item_link-insert">Как это работает</a>
-        </div>
-        <div class="nav__item_link">
-          <a href="#!" class="nav__item_link-insert">Контакты</a>
+        <div class="header__common">
+          <div class="header__nav nav" >
+            <div class="nav__item">
+              <div class="nav__item_link">
+                <a href="#!" class="nav__item_link-insert">О компании</a>
+              </div>
+              <div class="nav__item_link">
+                <a href="#!" class="nav__item_link-insert">Решения для бизнеса</a>
+              </div>
+              <div class="nav__item_link">
+                <a href="#!" class="nav__item_link-insert">Преимущества</a>
+              </div>
+              <div class="nav__item_link">
+                <a href="#!" class="nav__item_link-insert">Как это работает</a>
+              </div>
+              <div class="nav__item_link">
+                <a href="#!" class="nav__item_link-insert">Контакты</a>
+              </div>
+            </div>
+          </div>
+          <div class="header__contacts">
+            <div class="header__contacts-telephon">
+              +996 995 000 995
+            </div>
+            <div type="submit" class="header__button button">
+              <div class="header__button-btn">
+                Связаться с нами
+              </div>
+            </div>
+            <select name="country" class="button__country">
+              <option class="button__country-ctr">
+                Русский
+              </option>
+              <option class="button__country-ctr">
+                English
+              </option>
+            </select>
+          </div>
         </div>
       </div>
     </div>
-    <div class="header__contacts">
-      <div class="header__contacts-telephon">
-        +996 995 000 995
-      </div>
-      <button type="submit" class="button header__button">
-        Связаться с нами
-      </button>
-      <div class="button-country">
-        <select name="country" id="country">
-          <option>
-            <img src="./images/RU.png" alt="flag">
-          </option>
-          <option>
-            Русский
-          </option>
-          <option>
-            <img src="./images/USA.png" alt="flag">
-          </option>
-          <option>
-            English
-          </option>
-        </select>
+  </div>
+  <div class="wrapper">
+    <div class="partner">
+      <img src="./images/partner/01.png" alt="boll" class="partner__pic">
+      <div class="wrap">
+      <div class="partner__common">
+        <div class="partner__info">
+          <div class="info__title title">
+            Ваш надежный <span>инвестиционный</span> партнер в традиционных и цифровых активах
+          </div>
+          <div class="info__text text">
+            Предлагаем брокерские услуги институционального уровня<br> и
+             решения по крипто-ликвидности для вашего бизнеса
+          </div>
+          <div type="submit" class="partner__button button">
+            <div class="partner__button-btn">
+              Связаться с нами
+            </div> 
+          </div> 
+        </div>    
       </div>
     </div>
   </div>

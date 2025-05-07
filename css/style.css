@@ -1,3 +1,54 @@
+/* inter-regular - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/inter-v18-cyrillic_latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* inter-500 - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/inter-v18-cyrillic_latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* inter-600 - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/inter-v18-cyrillic_latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* bitter-regular - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Bitter';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/bitter-v39-cyrillic_latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* bitter-500 - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Bitter';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/bitter-v39-cyrillic_latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* bitter-600 - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Bitter';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/bitter-v39-cyrillic_latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+
 html{
 	box-sizing: border-box;
 }
@@ -5,7 +56,6 @@ html{
 	box-sizing: inherit;
 }
 .body {
-   font-family: 'Nunito Sans';
    font-style: normal;
    color: #222222;
    overflow-x: hidden;
@@ -21,8 +71,8 @@ img{
 	margin: 0 auto;
 }
  .wrap {
-	max-width: 1350px;
+	max-width: 1440px;
 	margin: 0 auto;
-  padding: 0 15px;
+
 }
 
