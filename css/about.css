@@ -1,0 +1,53 @@
+.about {
+  margin-top: 124px;
+  margin-bottom: 120px;
+}
+.about__title {
+  margin-bottom: 80px;
+}
+.about__common {
+  display: flex;
+}
+.about__info {
+    margin-left: 40px;
+}
+.about__info_item {
+  margin-bottom: 10px;
+  padding: 20px 40px;
+  border-radius: 8px;
+  background-color: #FFFFFF;
+}
+.about__info_item:last-child {
+  margin-bottom: 0px;
+}
+.about__info_united {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 32px;
+}
+.about__info_title {
+  margin-left: 22px;
+}
+.about__info_text p {
+  margin: 0px 0px 20px 0px;
+}
+.ttl {
+  font-family: Bitter;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 110%;
+}
+.txt {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 120%;
+}
+.shadow {
+  position: absolute;
+}
+.icon {
+  position: relative;
+  top: 8px;
+  left: 8px;
+}

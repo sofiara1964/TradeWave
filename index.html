@@ -3,97 +3,149 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/style.css">
-  <link rel="stylesheet" href="./css/header.css">
   <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/header.css">  
   <link rel="stylesheet" href="./css/partner.css">
+  <link rel="stylesheet" href="./css/about.css">
+  <script src="./js/index.js" defer></script>
   <title>TradeWave</title>
 </head>
 <body>
   <div class="wrapper">
     <div class="wrap">
-      <div class="header">
-        <div class="logo header__logo">
+      <header class="header">
+        <div class="header__logo logo">
           <img src="./images/Logo.png" alt="logo">
         </div>
         <div class="header__common">
-          <div class="header__nav nav" >
-            <div class="nav__item">
-              <div class="nav__item_link">
-                <a href="#!" class="nav__item_link-insert">О компании</a>
+          <div class="header__nav" >
+            <div class="header__list">
+              <div class="header__item">
+                <a href="#!" class="header__link js-scroll">О компании</a>
               </div>
-              <div class="nav__item_link">
-                <a href="#!" class="nav__item_link-insert">Решения для бизнеса</a>
+              <div class="header__item">
+                <a href="#!" class="header__link js-scroll">Решения для бизнеса</a>
               </div>
-              <div class="nav__item_link">
-                <a href="#!" class="nav__item_link-insert">Преимущества</a>
+              <div class="header__item">
+                <a href="#!" class="header__link js-scroll">Преимущества</a>
               </div>
-              <div class="nav__item_link">
-                <a href="#!" class="nav__item_link-insert">Как это работает</a>
+              <div class="header__item">
+                <a href="#!" class="header__link js-scroll">Как это работает</a>
               </div>
-              <div class="nav__item_link">
-                <a href="#!" class="nav__item_link-insert">Контакты</a>
+              <div class="header__item">
+                <a href="#!" class="header__link js-scroll">Контакты</a>
               </div>
+            </div>  
+            <div class="header__nav-close">
+              <span class="header__nav-close-line"></span>
+              <span class="header__nav-close-line"></span>
             </div>
           </div>
           <div class="header__contacts">
             <div class="header__contacts-telephon">
               +996 995 000 995
             </div>
-            <div type="submit" class="header__button button">
-              <div class="header__button-btn">
+            <button type="button" class="header__button button">
                 Связаться с нами
-              </div>
-            </div>
-            <select name="country" class="button__country">
-              <option class="button__country-ctr">
-                Русский
-              </option>
-              <option class="button__country-ctr">
-                English
-              </option>
-            </select>
+            </button>
+           <img src="./images/header.png" class="header__pic">
           </div>
         </div>
-      </div>
+        <div class="header__burger">
+					<span class="burger__line burger__line_first" ></span>
+					<span class="burger__line burger__line_second"></span>
+					<span class="burger__line burger__line_third"></span>
+				</div>          
+      </header>
     </div>
   </div>
   <div class="wrapper">
     <div class="partner">
       <img src="./images/partner/01.png" alt="boll" class="partner__pic">
       <div class="wrap">
-      <div class="partner__common">
-        <div class="partner__info">
-          <div class="info__title title">
-            Ваш надежный <span>инвестиционный</span> партнер в традиционных и цифровых активах
-          </div>
-          <div class="info__text text">
-            Предлагаем брокерские услуги институционального уровня<br> и
-             решения по крипто-ликвидности для вашего бизнеса
-          </div>
-          <div type="submit" class="partner__button button">
-            <div class="partner__button-btn">
-              Связаться с нами
-            </div> 
+        <div class="partner__common">
+          <div class="partner__info">
+            <div class="info__title title">
+              Ваш надежный инвестиционный<br> партнер в традиционных<br> и цифровых активах
+            </div>
+            <div class="info__text text">
+              Предлагаем брокерские услуги институционального уровня<br> и
+               решения по крипто-ликвидности для вашего бизнеса
+            </div>
+            <button type="submit" class="partner__button button">
+                Связаться с нами
+            </button> 
           </div> 
-        </div>    
+        </div>   
       </div>
     </div>
   </div>
-
-
-
-
-
-
-
-
-
- <!-- <div class="footer">
-    <div class="logo footer__logo">
-      <img src="./images/Logo.png" alt="logo">
+  <div class="wrapper">
+    <div class="wrap">
+      <div class="about">
+        <div class="about__title title">
+          Кто мы
+        </div>
+        <div class="about__common">
+          <img src="./images/about/about.jpg" alt="man">
+          <div class="about__info">
+            <div class="about__info_item">
+              <div class="about__info_united">
+                <div class="about__info_pic">
+                  <img src="./images/about/04.png" alt="shadow" class="shadow">
+                  <img src="./images/about/01.png" alt="dart" class="icon">
+                </div>
+                <div class="about__info_title ttl">
+                  Цели:
+                </div>
+              </div>
+              <div class="about__info_text txt">
+                <p> Мы предоставляем надежные, безопасные и масштабируемые
+                инвестиционные услуги, помогая бизнесу получить доступ 
+                как к традиционным финансовым рынкам, так и к криптовалютным решениям.</p>
+                <p>Наша цель — соединить классические финансы с цифровыми активами, предлагая
+                клиентам лучшие возможности с обоих рынков.</p>
+              </div>
+            </div>  
+            <div class="about__info_item">
+              <div class="about__info_united">
+                <div class="about__info_pic">
+                  <img src="./images/about/04.png" alt="shadow" class="shadow">  
+                  <img src="./images/about/02.png" alt="rocket" class="icon">
+                </div>
+                <div class="about__info_title ttl">
+                  Миссия:
+                </div>
+              </div>
+              <div class="about__info_text txt">
+                <p>Наша миссия — помочь бизнесу управлять инвестициями в традиционные и цифровые 
+                активы с помощью современных технологий и экспертных консультаций.</p>
+                <p>Мы стремимся обеспечить скорость, прозрачность и безопасность
+                всех финансовых операций.</p>
+              </div>
+            </div>  
+            <div class="about__info_item">
+              <div class="about__info_united">
+                <div class="about__info_pic">
+                  <img src="./images/about/04.png" alt="shadow" class="shadow">
+                  <img src="./images/about/03.png" alt="star" class="icon">
+                </div>
+                <div class="about__info_title ttl">
+                  Опыт:
+                </div>
+              </div>
+              <div class="about__info_text txt">
+                <p> Имея многолетний опыт работы как на традиционных финансовых рынках, так и в 
+                сфере криптовалют, мы предлагаем компаниям комплексные инвестиционные решения.</p>
+                <p>Мы предоставляем персонализированные и гибкие услуги, адаптированные
+                к потребностям наших клиентов.</p>
+              </div>
+            </div>  
+          </div>
+        </div>
+      </div>
     </div>
-  </div>-->
-  
+  </div> 
 </body>
 </html>

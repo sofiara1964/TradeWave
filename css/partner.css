@@ -1,17 +1,29 @@
 .partner {
-  background: #292929;
+  margin-top: 80px;
+  background-color: #292929;
+  background-size: cover;
+  height: 650px;
+  position: relative;
 }
 .partner__pic {
-  float: right;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.partner__info {
+  position: relative;
 }
 .info__title {
+  margin-bottom: 20px;
   padding-top: 100px;
+  color: #FFFFFF;
+}
+.title {
   font-family: Bitter;
   font-weight: 600;
   font-size: 60px;
   line-height: 110%;
-  color: #FFFFFF;
-  margin-bottom: 20px;
+
 }
 .info__text {
   font-family: Inter;
@@ -22,13 +34,5 @@
   margin-bottom: 60px;
 }
 .partner__button{
-  border-radius: 8px;
-  background: #3663EF;
-}
-.partner__button-btn {
-  padding: 20px 40px 20px 40px;
-  font-family: Inter;
-  font-weight: 500;
-  font-size: 20px;
-  color: #FFFFFF;
+  padding: 20px 206px 20px 206px;
 }

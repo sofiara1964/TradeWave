@@ -55,8 +55,8 @@ html{
 *, *::before, *::after{
 	box-sizing: inherit;
 }
-.body {
-   font-style: normal;
+body {
+   background-color: #F9F9F9;
    color: #222222;
    overflow-x: hidden;
 }
@@ -69,10 +69,11 @@ img{
 .wrapper {
 	max-width: 1920px;
 	margin: 0 auto;
+  padding: 0;
 }
  .wrap {
 	max-width: 1440px;
 	margin: 0 auto;
-
+  padding: 0;
 }
 
