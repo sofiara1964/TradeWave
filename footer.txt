@@ -14,3 +14,92 @@
       display: none;
 
        position: absolute;
+
+
+        <div class="wrapper">
+    <div class="partner">
+      <img src="./images/partner/01.png" alt="boll" class="partner__pic">
+      <div class="wrap">
+        <div class="partner__common">
+          <div class="partner__info">
+            <div class="info__title title">
+              Ваш надежный инвестиционный<br> партнер в традиционных<br> и цифровых активах
+            </div>
+            <div class="info__text text">
+              Предлагаем брокерские услуги институционального уровня<br> и
+               решения по крипто-ликвидности для вашего бизнеса
+            </div>
+            <button type="submit" class="partner__button button">
+                Связаться с нами
+            </button> 
+          </div> 
+        </div>   
+      </div>
+    </div>
+  </div>
+  <div class="wrapper">
+    <div class="wrap">
+      <div class="about">
+        <div class="about__title title">
+          Кто мы
+        </div>
+        <div class="about__common">
+          <img src="./images/about/about.jpg" alt="man">
+          <div class="about__info">
+            <div class="about__info_item">
+              <div class="about__info_united">
+                <div class="about__info_pic">
+                  <img src="./images/about/04.png" alt="shadow" class="shadow">
+                  <img src="./images/about/01.png" alt="dart" class="icon">
+                </div>
+                <div class="about__info_title ttl">
+                  Цели:
+                </div>
+              </div>
+              <div class="about__info_text txt">
+                <p> Мы предоставляем надежные, безопасные и масштабируемые
+                инвестиционные услуги, помогая бизнесу получить доступ 
+                как к традиционным финансовым рынкам, так и к криптовалютным решениям.</p>
+                <p>Наша цель — соединить классические финансы с цифровыми активами, предлагая
+                клиентам лучшие возможности с обоих рынков.</p>
+              </div>
+            </div>  
+            <div class="about__info_item">
+              <div class="about__info_united">
+                <div class="about__info_pic">
+                  <img src="./images/about/04.png" alt="shadow" class="shadow">  
+                  <img src="./images/about/02.png" alt="rocket" class="icon">
+                </div>
+                <div class="about__info_title ttl">
+                  Миссия:
+                </div>
+              </div>
+              <div class="about__info_text txt">
+                <p>Наша миссия — помочь бизнесу управлять инвестициями в традиционные и цифровые 
+                активы с помощью современных технологий и экспертных консультаций.</p>
+                <p>Мы стремимся обеспечить скорость, прозрачность и безопасность
+                всех финансовых операций.</p>
+              </div>
+            </div>  
+            <div class="about__info_item">
+              <div class="about__info_united">
+                <div class="about__info_pic">
+                  <img src="./images/about/04.png" alt="shadow" class="shadow">
+                  <img src="./images/about/03.png" alt="star" class="icon">
+                </div>
+                <div class="about__info_title ttl">
+                  Опыт:
+                </div>
+              </div>
+              <div class="about__info_text txt">
+                <p> Имея многолетний опыт работы как на традиционных финансовых рынках, так и в 
+                сфере криптовалют, мы предлагаем компаниям комплексные инвестиционные решения.</p>
+                <p>Мы предоставляем персонализированные и гибкие услуги, адаптированные
+                к потребностям наших клиентов.</p>
+              </div>
+            </div>  
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> 
